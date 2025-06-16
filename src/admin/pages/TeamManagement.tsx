@@ -15,7 +15,6 @@ export const TeamManagement: React.FC = () => {
     deleteTeamMember,
     toggleFeatured,
     toggleActive,
-    uploadImage,
     getNextDisplayOrder,
     getActiveMembers,
     getFeaturedMembers
@@ -24,7 +23,6 @@ export const TeamManagement: React.FC = () => {
   const [showModal, setShowModal] = useState(false)
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null)
   const [filter, setFilter] = useState<'all' | 'active' | 'featured'>('all')
-  const [isEditing, setIsEditing] = useState(false)
 
   const filteredMembers = (() => {
     switch (filter) {
@@ -49,13 +47,13 @@ export const TeamManagement: React.FC = () => {
       created_at: '',
       updated_at: ''
     })
-    setIsEditing(false)
+
     setShowModal(true)
   }
 
   const handleEditMember = (member: TeamMember) => {
     setSelectedMember(member)
-    setIsEditing(true)
+
     setShowModal(true)
   }
 

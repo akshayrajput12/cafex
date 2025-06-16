@@ -39,14 +39,12 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
     active: member?.active ?? true
   })
 
-  const [imageFile, setImageFile] = useState<File | null>(null)
   const [imagePreview, setImagePreview] = useState<string>('')
   const [newSpecialty, setNewSpecialty] = useState('')
 
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
     if (file) {
-      setImageFile(file)
       const reader = new FileReader()
       reader.onload = (e) => {
         setImagePreview(e.target?.result as string)

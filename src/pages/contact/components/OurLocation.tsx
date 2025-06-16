@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { contactInfo, getGoogleMapsUrl, getDirectionsUrl, getCallUrl, getEmailUrl } from '../../../data/contactInfo';
+import { contactInfo, getDirectionsUrl, getCallUrl, getEmailUrl } from '../../../data/contactInfo';
 
 export const OurLocation = () => {
   return (
