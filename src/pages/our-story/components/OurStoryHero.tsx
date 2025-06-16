@@ -19,7 +19,7 @@ export const OurStoryHero = () => {
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6"
                 style={{ fontFamily: 'Raleway, sans-serif' }}
               >
-                Our Story
+                Our Story - CNC Coffee N Cravings
               </motion.h1>
               
               <motion.p
@@ -29,7 +29,7 @@ export const OurStoryHero = () => {
                 className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto"
                 style={{ fontFamily: 'Lato, sans-serif' }}
               >
-                Discover the journey that started with a simple dream and grew into a beloved community gathering place.
+                Discover how CNC Coffee N Cravings became Jaipur's most prestigious cafe destination. From humble beginnings to India's top cafe, located in the heart of Rajasthan's Pink City.
               </motion.p>
             </div>
           </div>
@@ -56,9 +56,7 @@ export const OurStoryHero = () => {
             className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            The Daily Grind was founded in 2010 by Sarah and David, two passionate coffee enthusiasts with a dream of creating a 
-            community hub centered around exceptional coffee and delicious food. Their journey began with a small, cozy space in the 
-            heart of the city, where they meticulously crafted each cup and dish with love and care.
+            CNC Coffee N Cravings was founded in 2020 by Sarah and David, two passionate coffee enthusiasts with a vision of bringing world-class cafe culture to Jaipur. Their journey began with a dream to create Rajasthan's most premium coffee destination on Sirsi Road, opposite Capital Gallery Mall, where they meticulously craft each cup and dish with exceptional quality and authentic Rajasthani hospitality.
           </motion.p>
         </div>
       </div>

@@ -11,8 +11,19 @@ export const Hero: React.FC = () => {
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6"
           style={{ fontFamily: 'Raleway, sans-serif' }}
         >
-          Menu
+          Premium Menu - Jaipur's Finest Cafe
         </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-6 max-w-4xl"
+          style={{ fontFamily: 'Lato, sans-serif' }}
+        >
+          Discover our carefully curated selection of artisanal coffees, gourmet cuisine, and signature beverages.
+          Each dish is crafted with premium ingredients to deliver an exceptional dining experience in the heart of Jaipur.
+        </motion.p>
       </div>
     </section>
   );

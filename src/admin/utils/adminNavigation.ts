@@ -9,6 +9,7 @@ export const adminRoutes = {
   offers: '/admin/offers',
   bookings: '/admin/bookings',
   reviews: '/admin/reviews',
+  team: '/admin/team',
 } as const
 
 export const navigateToAdmin = (page: string) => {
@@ -27,6 +28,7 @@ export const getPageTitle = (page: string): string => {
     offers: 'Special Offers',
     bookings: 'Booking Management',
     reviews: 'Reviews Management',
+    team: 'Team Management',
   }
   return titles[page] || 'Admin Panel'
 }

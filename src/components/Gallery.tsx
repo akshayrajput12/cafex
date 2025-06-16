@@ -45,7 +45,7 @@ export const Gallery = ({
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-6"
             >
-              Gallery
+              Gallery - CNC Coffee N Cravings Jaipur
             </motion.h2>
           )}
           <div className="flex justify-center items-center h-64">
@@ -68,7 +68,7 @@ export const Gallery = ({
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-6"
             >
-              Gallery
+              Gallery - CNC Coffee N Cravings Jaipur
             </motion.h2>
           )}
           <div className="flex justify-center items-center h-64">
@@ -126,7 +126,7 @@ export const Gallery = ({
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-6"
           >
-            Gallery
+            Gallery - CNC Coffee N Cravings Jaipur
           </motion.h2>
         )}
 

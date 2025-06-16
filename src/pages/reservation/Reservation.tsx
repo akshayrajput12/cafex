@@ -210,7 +210,7 @@ const BookingConfirmation: React.FC<BookingConfirmationProps> = ({ isOpen, onClo
               fontSize: '1rem'
             }}
           >
-            Thank you {bookingData.customerName}! Your table has been successfully reserved at Cafex. We look forward to serving you!
+            Thank you {bookingData.customerName}! Your table has been successfully reserved at CNC Coffee N Cravings. We look forward to serving you!
           </motion.p>
 
           {/* Confirmation Code */}
@@ -335,7 +335,7 @@ const ReservationHero = () => (
             className="text-sm sm:text-base md:text-lg text-white/90 max-w-2xl mx-auto"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            Book your perfect dining experience at Cafex. Select your preferred date, time, and party size for an unforgettable culinary journey.
+            Reserve your table at CNC Coffee N Cravings, Jaipur's premier cafe destination. Experience exceptional dining at our Sirsi Road location with premium coffee, gourmet cuisine, and unmatched hospitality.
           </motion.p>
         </div>
       </div>

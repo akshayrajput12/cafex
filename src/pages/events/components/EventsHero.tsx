@@ -27,7 +27,7 @@ export const EventsHero = () => {
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6"
                 style={{ fontFamily: 'Raleway, sans-serif' }}
               >
-                Upcoming Events
+                Exclusive Events at Jaipur's Premier Cafe
               </motion.h1>
 
               <motion.p
@@ -37,7 +37,7 @@ export const EventsHero = () => {
                 className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto"
                 style={{ fontFamily: 'Lato, sans-serif' }}
               >
-                Explore our calendar of events, special offers, and themed nights. Join us for unique experiences and delicious treats.
+                Experience Jaipur's most sophisticated events at CNC Coffee N Cravings. From live music evenings to coffee tasting sessions, wine nights, and cultural celebrations - discover exclusive experiences in Rajasthan's most premium cafe setting.
               </motion.p>
 
               <motion.button

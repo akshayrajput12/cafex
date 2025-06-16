@@ -98,11 +98,11 @@ export const AdminDashboard: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="bg-white rounded-xl p-6 shadow-sm"
       >
-        <h2 
+        <h2
           className="text-2xl font-bold mb-2"
           style={{ color: '#96664F', fontFamily: 'Raleway, sans-serif' }}
         >
-          Welcome to Cafex Admin Panel
+          Welcome to CNC Admin Panel
         </h2>
         <p className="text-gray-600" style={{ fontFamily: 'Lato, sans-serif' }}>
           Manage your cafe's content, bookings, and operations from this central dashboard.

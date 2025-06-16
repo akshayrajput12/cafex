@@ -8,7 +8,8 @@ import {
   GalleryManagement,
   OffersManagement,
   BookingsManagement,
-  ReviewsManagement
+  ReviewsManagement,
+  TeamManagement
 } from './pages'
 import { getPageTitle } from './utils/adminNavigation'
 
@@ -29,7 +30,8 @@ export const Admin: React.FC = () => {
         '/admin/gallery': 'gallery',
         '/admin/offers': 'offers',
         '/admin/bookings': 'bookings',
-        '/admin/reviews': 'reviews'
+        '/admin/reviews': 'reviews',
+        '/admin/team': 'team'
       }
 
       const page = adminRoutes[path]
@@ -61,7 +63,8 @@ export const Admin: React.FC = () => {
       gallery: '/admin/gallery',
       offers: '/admin/offers',
       bookings: '/admin/bookings',
-      reviews: '/admin/reviews'
+      reviews: '/admin/reviews',
+      team: '/admin/team'
     }
     
     const route = routes[page] || '/admin'
@@ -84,6 +87,8 @@ export const Admin: React.FC = () => {
         return <BookingsManagement />
       case 'reviews':
         return <ReviewsManagement />
+      case 'team':
+        return <TeamManagement />
       default:
         return <AdminDashboard />
     }

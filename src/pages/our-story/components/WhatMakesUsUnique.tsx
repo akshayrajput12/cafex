@@ -15,7 +15,7 @@ const WhatMakesUsUnique: React.FC = () => {
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6"
               style={{ fontFamily: 'Raleway, sans-serif' }}
             >
-              What Makes Us Unique
+              What Makes CNC Coffee N Cravings Jaipur's Premier Cafe
             </motion.h2>
 
             <motion.p
@@ -25,9 +25,7 @@ const WhatMakesUsUnique: React.FC = () => {
               className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl"
               style={{ fontFamily: 'Lato, sans-serif' }}
             >
-              At The Daily Grind, we go beyond just serving coffee and food. We offer a curated experience that combines exceptional
-              quality, a welcoming atmosphere, and a commitment to sustainability. Our unique selling points include our signature coffee
-              blends, locally sourced ingredients, community events, and personalized service.
+              At CNC Coffee N Cravings, we've redefined the cafe experience in Jaipur. Located strategically on Sirsi Road opposite Capital Gallery Mall, we offer a curated luxury experience that combines world-class coffee, gourmet cuisine, and sophisticated ambiance. Our unique selling points include artisanal coffee blends, premium ingredients sourced from across Rajasthan and India, exclusive cultural events, and personalized service that reflects authentic Rajasthani hospitality.
             </motion.p>
           </div>
         </div>

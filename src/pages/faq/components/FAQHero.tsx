@@ -19,7 +19,7 @@ export const FAQHero: React.FC = () => {
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6"
                 style={{ fontFamily: 'Raleway, sans-serif' }}
               >
-                Frequently Asked Questions
+                FAQ - CNC Coffee N Cravings Jaipur
               </motion.h1>
 
               <motion.p
@@ -29,7 +29,7 @@ export const FAQHero: React.FC = () => {
                 className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto"
                 style={{ fontFamily: 'Lato, sans-serif' }}
               >
-                Find answers to all your questions about our services, location, and more. We're here to help make your experience at Cafex exceptional.
+                Find answers to all your questions about our services, location, and more. We're here to help make your experience at CNC Coffee N Cravings exceptional.
               </motion.p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export const FAQHero: React.FC = () => {
             className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            Browse through our comprehensive FAQ sections below to find quick answers to common questions about reservations, services, location, and more. If you can't find what you're looking for, don't hesitate to contact us directly.
+            Browse through our comprehensive FAQ sections below to find quick answers about visiting Jaipur's premier cafe. Get information about our Sirsi Road location, premium menu, reservations, events, and exceptional services at CNC Coffee N Cravings.
           </motion.p>
         </div>
       </div>

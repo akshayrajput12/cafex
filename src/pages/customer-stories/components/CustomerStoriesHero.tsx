@@ -11,7 +11,7 @@ export const CustomerStoriesHero = () => {
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6"
           style={{ fontFamily: 'Raleway, sans-serif' }}
         >
-          Customer Stories
+          Customer Stories - CNC Coffee N Cravings
         </motion.h1>
         
         <motion.p
@@ -21,7 +21,7 @@ export const CustomerStoriesHero = () => {
           className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed max-w-3xl"
           style={{ fontFamily: 'Lato, sans-serif' }}
         >
-          Hear what our amazing customers have to say about their experiences at Cafex. Every story matters to us.
+          Discover why CNC Coffee N Cravings is rated as Jaipur's top cafe. Read authentic reviews from our valued customers who have experienced the finest coffee, gourmet cuisine, and exceptional hospitality at our Sirsi Road location.
         </motion.p>
       </div>
     </section>

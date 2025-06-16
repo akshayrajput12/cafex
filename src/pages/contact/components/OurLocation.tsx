@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { contactInfo, getGoogleMapsUrl, getDirectionsUrl, getCallUrl, getEmailUrl } from '../../../data/contactInfo';
 
 export const OurLocation = () => {
   return (
@@ -29,7 +30,7 @@ export const OurLocation = () => {
             className="text-gray-700 text-sm sm:text-base md:text-lg mb-8 max-w-3xl"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            Visit us at our cozy spot in the heart of the city. We're open daily from 7 AM to 10 PM, serving up your favorite brews and bites.
+            Visit us at India's top cafe located in the heart of Jaipur. We're conveniently located on Sirsi Road opposite Capital Gallery Mall, open daily from 8 AM to 11 PM, serving up your favorite brews and bites.
           </motion.p>
 
           {/* Content Grid */}
@@ -53,8 +54,8 @@ export const OurLocation = () => {
                   className="text-gray-700 text-sm sm:text-base"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
-                  123 Main Street, Dehradun,<br />
-                  Uttarakhand, India
+                  {contactInfo.address.street},<br />
+                  {contactInfo.address.city}, {contactInfo.address.state} {contactInfo.address.pincode}
                 </p>
               </div>
 
@@ -66,12 +67,13 @@ export const OurLocation = () => {
                 >
                   Phone
                 </h3>
-                <p
-                  className="text-gray-700 text-sm sm:text-base"
+                <a
+                  href={getCallUrl()}
+                  className="text-gray-700 hover:text-orange-600 text-sm sm:text-base transition-colors duration-200"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
-                  +91 135-123-4567
-                </p>
+                  {contactInfo.phone.display}
+                </a>
               </div>
 
               {/* Email */}
@@ -82,12 +84,13 @@ export const OurLocation = () => {
                 >
                   Email
                 </h3>
-                <p
-                  className="text-gray-700 text-sm sm:text-base"
+                <a
+                  href={getEmailUrl()}
+                  className="text-gray-700 hover:text-orange-600 text-sm sm:text-base transition-colors duration-200"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
-                  info@cafex.com
-                </p>
+                  {contactInfo.email.general}
+                </a>
               </div>
 
               {/* Hours */}
@@ -98,12 +101,12 @@ export const OurLocation = () => {
                 >
                   Hours
                 </h3>
-                <div 
+                <div
                   className="text-gray-700 text-sm sm:text-base space-y-1"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
-                  <p>Monday - Friday: 7:00 AM - 10:00 PM</p>
-                  <p>Saturday - Sunday: 8:00 AM - 11:00 PM</p>
+                  <p>{contactInfo.hours.display}</p>
+                  <p className="text-sm text-gray-500">Open all days of the week</p>
                 </div>
               </div>
             </motion.div>
@@ -149,7 +152,7 @@ export const OurLocation = () => {
                 style={{ fontFamily: 'Lato, sans-serif' }}
                 onClick={() => {
                   // Open in Google Maps
-                  window.open('https://maps.google.com/?q=123+Main+Street+Dehradun+Uttarakhand+India', '_blank');
+                  window.open(getDirectionsUrl(), '_blank');
                 }}
               >
                 View in Maps

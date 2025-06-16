@@ -32,7 +32,7 @@ export const AboutUs = ({ onLearnMore }: AboutUsProps) => {
           className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl mb-8"
           style={{ fontFamily: 'Lato, sans-serif' }}
         >
-          The Daily Grind is more than just a cafe; it's a community hub where coffee lovers and food enthusiasts come together. Our journey began with a simple idea: to create a space where quality coffee meets a warm, inviting atmosphere. Learn more about our mission, values, and the team behind your favorite brews.
+          CNC Coffee N Cravings is Jaipur's premier destination for coffee connoisseurs and food enthusiasts. Located strategically on Sirsi Road opposite Capital Gallery Mall, we've established ourselves as Rajasthan's leading premium cafe. Our journey began with a vision to bring world-class coffee culture to the Pink City, creating a sophisticated space where exceptional quality meets warm Rajasthani hospitality.
         </motion.p>
 
         {/* Learn More About Us Button */}

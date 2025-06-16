@@ -19,7 +19,7 @@ export const ContactHero = () => {
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6"
                 style={{ fontFamily: 'Raleway, sans-serif' }}
               >
-                Contact Us
+                Contact CNC Coffee N Cravings
               </motion.h1>
 
               <motion.p
@@ -29,7 +29,7 @@ export const ContactHero = () => {
                 className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto"
                 style={{ fontFamily: 'Lato, sans-serif' }}
               >
-                We'd love to hear from you. Whether you have a question about our menu, want to book a table, or just want to say hello, please don't hesitate to reach out.
+                Connect with Jaipur's premier cafe destination. Whether you have questions about our premium menu, want to reserve a table at our Sirsi Road location, or need event planning assistance, we're here to provide exceptional service.
               </motion.p>
             </div>
           </div>
