@@ -39,6 +39,7 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
     active: member?.active ?? true
   })
 
+
   const [imagePreview, setImagePreview] = useState<string>('')
   const [newSpecialty, setNewSpecialty] = useState('')
 

@@ -47,13 +47,11 @@ export const TeamManagement: React.FC = () => {
       created_at: '',
       updated_at: ''
     })
-
     setShowModal(true)
   }
 
   const handleEditMember = (member: TeamMember) => {
     setSelectedMember(member)
-
     setShowModal(true)
   }
 

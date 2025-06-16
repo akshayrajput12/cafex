@@ -8,24 +8,11 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          motion: ['framer-motion'],
-          supabase: ['@supabase/supabase-js'],
-          admin: [
-            './src/admin/pages/AdminDashboard',
-            './src/admin/pages/EventsManagement',
-            './src/admin/pages/MenuManagement',
-            './src/admin/pages/InstagramManagement',
-            './src/admin/pages/GalleryManagement',
-            './src/admin/pages/OffersManagement',
-            './src/admin/pages/BookingsManagement',
-            './src/admin/pages/ReviewsManagement',
-            './src/admin/pages/TeamManagement'
-          ]
+          motion: ['framer-motion']
         }
       }
     }
